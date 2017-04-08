@@ -1,0 +1,30 @@
+{
+  "name": "eb-sales-automator",
+  "version": "0.0.1",
+  "description": "Sales automator allows us to rapidly grow our machine learning.",
+  "keyworks": [
+    "api",
+    "sales",
+    "linkedin",
+    "automation",
+    "email",
+    "hubspot"
+  ],
+  "homepage": "https://www.electricbrain.io/",
+  "license": "AGPL-3.0",
+  "author": "Electric Brain Software Corporation <office@electricbrain.io>",
+  "main": "automator.js",
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "mercurial",
+    "url": "bitbucket:electricbrain/eb-sales-automator"
+  },
+  "dependencies": {
+    "async": "^2.2.0",
+    "fast-csv": "^2.4.0",
+    "request": "^2.81.0"
+  }
+}
